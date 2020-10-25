@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "strict": 0,
+    "semi": [2, "never"],
+    "quotes": ["error", "single"],
+    "comma-dangle": ["error", "never"],
+    "no-unused-vars": "error",
+    "no-var": "error",
+    "space-before-function-paren": 0
+    // "prettier/prettier": "error"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "standard"
+    // "plugin:prettier/recommended"
+  ],
+  "settings": {
+    "node": {
+      "version": "detect"
+    }
+  }
+}
